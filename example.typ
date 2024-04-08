@@ -1,10 +1,17 @@
 #import "conf.typ": conf, guia, pronombre
 #let mostrar_guias = true
 #show: conf.with(
-  titulo: "El Título de mi práctica",
-  autor: (nombre: "María Echón", pronombre: pronombre.elle),
-  supervisor: (nombre: "María Gómez", pronombre: pronombre.ella),
+  titulo: "Desarrollo de proyecto Data Analytics para Gestión de Ingresos del área de datos y operaciones de Transelec",
+  autor: (nombre: "Jorge Feliú Guzmán", pronombre: pronombre.el),
+  supervisor: (nombre: "Emilio Espinoza", pronombre: pronombre.el),
   espaciado_titulo: 2fr,
+  practica: 1,
+  correo: "jorge.feliu@ug.uchile.cl",
+  telefono: "+56 9 6427 4563",
+  empresa: "Transelec S.A.",
+  correo-supervisor: "eespinoza@transelec.cl",
+  telefono-supervisor: "+56 9 2467 7000",
+  fecha: "12 de abril del 2024",
 )
 
 #guia(visible: mostrar_guias)[Se debe quitar todas las guías (estas cajas grises) antes de entregar el documento.
